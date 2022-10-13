@@ -1,0 +1,152 @@
+* {
+    /* margin: 0px; */
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+.upper_div {
+    width: 100%;
+    background-color: #eaebeb;
+    height: auto;
+    text-align: center;
+    /* display: flex; */
+}
+
+img {
+    /* display: block; */
+}
+.form_div {
+    /* width: 100%; */
+}
+
+h1 {
+    margin-bottom: 15px;
+}
+
+.paragraph {
+    margin-bottom: 15px;
+}
+
+.button {
+    font-size: 18px;
+    padding: 5px 10px 5px 10px;
+    color: blue;
+    font-size: 18px;
+    border: 1px solid #f0f0f0;
+    background: #fafafa;
+    border-radius: 2px;
+}
+
+.form_drop_down_div {
+    display: flex;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.dropdown_name {
+    margin-bottom: 5px;
+    color: blue;
+}
+
+.select {
+    height: 50px;
+    width: 400px;
+    border: 1px solid #8dc63f;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+.inputs_div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    padding: 0px 20px;
+}
+
+input {
+    height: 50px;
+    width: 380px;
+    border: 1px solid #8dc63f;
+    border-radius: 5px;
+    padding-left: 18px;
+    font-size: 15px;
+}
+@media screen and (max-width: 435px) {
+    input  {
+        width: 320px;
+        height: 40px;
+    }
+    img {
+        width: 350px;
+    }
+    .inputs_div {
+        margin: 0px;
+    }
+}
+/* @media screen and (max-width: 880px) {
+    .name_div {
+        margin-top: 30px;
+    }
+} */
+.input_div {
+    margin: 0px 10px;
+}
+input:hover {
+    border: 1px solid blue;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.input {
+    height: 50px;
+    width: 812px;
+    border: 1px solid #8dc63f;
+    border-radius: 5px;
+    padding-left: 18px;
+    font-size: 15px;
+}
+
+select:focus {
+    border: 1px solid blue;
+    box-shadow: blue 0px 3px 8px;
+}
+
+select::after {
+    filter: blur(2px);
+
+}
+
+.footer_inputs_div {
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: grid;
+    margin-top: 25px;
+}
+
+.footer_select {
+    height: 50px;
+    width: 833px;
+    border: 1px solid #8dc63f;
+    border-radius: 5px;
+    padding-left: 18px;
+    font-size: 15px;
+}
+
+.buttn {
+    background-color: #0d6db7;
+    height: 50px;
+    width: 150px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+}
+.buttn:hover {
+    background-color: #8dc63f;
+}

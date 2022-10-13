@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- <p id="para"></p> -->
+    <div class="container">
+        <div class="upper_div">
+            <img src="https://forms.saylaniwelfare.com/static/media/logo.22bf709605809177256c.png" alt="">
+            <h1>Course Registration Form</h1>
+            <p class="paragraph">Services-Education-Registration</p>
+            <button class="button" style="color: #8dc63f;display: inline;">New Application</button>
+            <button class="button" onclick="newPage()">Admin</button>
+        </div>
+        <div class="form_div">
+            <div class="inputs_div">
+                <div class="input_div">
+                    <p class="dropdown_name">Full Name</p>  
+                    <input type="text" name="" placeholder="Full name" id="name">
+                </div>
+                <div class="input_div">
+                    <p class="dropdown_name">Father Name</p>
+                    <input type="text" name="" placeholder="Father name" id="father_name">
+                </div>
+            </div>
+            <div class="inputs_div">
+                <div class="input_div">
+                    <p class="dropdown_name">Email</p>
+                    <input type="email" name="" placeholder="Email" id="email">
+                </div>
+                <div class="input_div">
+                    <p class="dropdown_name">Phone</p>
+                    <input type="number" name="" placeholder="Phone" id="number">
+                </div>
+            </div class="input_div">
+            <div class="inputs_div">
+                <div class="input_div">
+                    <p class="dropdown_name">Date of birth</p>
+                    <input type="date" name="" placeholder="mm/dd/yyyy" id="getDate">
+                </div>
+                <div class="input_div">
+                    <p class="dropdown_name">Father's CNIC (optional)</p>
+                    <input type="text" name="" placeholder="Father's CNIC (optional)" id="father_cnic">
+                </div>
+            </div>
+            <div style="margin-top: 40px;" class="footer_inputs_div">
+                <button class="buttn" onclick="Call()">Submit</button>
+            </div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+</html>
+
+
+<!-- <div class="inputs_div">
+                <div style="padding-right: 15px;">
+                    <p class="dropdown_name">Date of birth</p>
+                    <input type="date" name="" placeholder="mm/dd/yyyy" id="getDate">
+                </div>
+            </div> -->
+<!-- <div style="padding-right: 15px;">
+    <p class="dropdown_name">CNIC</p>
+    <input type="text" maxlength="30" name="" placeholder="CNIC" id="cnic">
+</div> -->
+<!-- <div style="padding-left: 15px;">
+    <p class="dropdown_name">Select Course</p>
+    <select class="select" id="genderOptions">
+        <option>Select Gender</option>
+        <option>Male</option>
+        <option>Female</option>
+        <option>Custom</option>
+        <option>Tiktoker</option>
+    </select>
+</div> -->
+
+      <!-- <div class="footer_inputs_div">
+                <p class="dropdown_name">Address</p>
+                <input class="input" type="text" placeholder="Address" id="getAddress">
+            </div> -->
+            <!-- <div class="footer_inputs_div">
+                <p class="dropdown_name">Last Qualification</p>
+                    <select class="footer_select" id="getQualification">
+                        <option>Matric</option>
+                        <option>Intermediate</option>
+                        <option value="saab">Graduate</option>
+                        <option value="mercedes">Ungraduate</option>
+                    </select>
+            </div> -->
+
+                    <!-- <div class="form_drop_down_div">
+                <div style="padding-right: 15px;">
+                    <p class="dropdown_name">Select City</p>
+                    <select class="select" id="cityOptions">
+                        <option value="select">Select</option>
+                        <option value="Karachi">Karachi</option>
+                        <option value="Islamabad">Islamabad</option>
+                        <option value="Lahore">Lahore</option>
+                        <option value="Peshawar">Peshawar</option>
+                    </select>
+                </div>
+                <div style="padding-left: 15px;">
+                    <p class="dropdown_name">Select Course</p>
+                    <select class="select" id="courseOptions">
+                        <option>Select Course</option>
+                        <option>Web and Mobile App Development</option>
+                        <option>Graphic Design</option>
+                        <option>PIAIC</option>
+                        <option>CCO</option>
+                    </select>
+                </div>
+            </div> -->
